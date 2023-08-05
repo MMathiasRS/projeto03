@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header class="nav navbar navbar-expand-lg sticky-top bg-dark p-3">
+    <div class="container">
+      <h1 class="navbar-brand nav-link" style="color: white">Nike</h1>
+
+      <button class="navbar-toggler" type="button" style="background-color: white" data-bs-toggle="collapse"
+        data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav class="nav navbar-collapse collapse justify-content-lg-end" id="menu">
+        <ul class="nav d-block d-md-flex">
+          <li class="nav-item">
+            <a class="nav-link" style="color: white" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white" href="">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white" href="">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white" href="">contatos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="carousel slide " data-bs-ride="carousel">
+
+      <div class="carousel-inner " data-bs-interval="1000">
+        <div class="carousel-item active">
+          <img src="https://4kwallpapers.com/images/walls/thumbs_3t/11721.png" class="d-block w-100" alt="..." />
+        </div>
+
+        <div class="carousel-item" data-bs-interval="1000">
+          <img src="https://4kwallpapers.com/images/walls/thumbs_3t/7240.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+    <div class="container mt-5">
+      <div class="d-lg-flex justify-content-lg-between p-4">
+        <div class="d-block">
+          <h1 class="fw-bold">Nike</h1>
+          <p>
+            Nike é uma das marcas mais icônicas e influentes do mundo, uma gigante no universo do esporte e do estilo de
+            vida. Fundada em 1964, nos Estados Unidos, por Bill Bowerman e Phil Knight, a empresa começou como Blue Ribbon
+            Sports, mas em 1971 mudou oficialmente para o nome que a tornaria famosa: Nike, inspirado na deusa grega da
+            vitória.
+          </p>
+        </div>
+      
+        <div>
+          <img src="https://img.freepik.com/icones-gratis/nike_318-565950.jpg" width="300px">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container mt-4 text-center">
+      <h2 class=card-title ">Produtos De Lançamento</h2>
+
+        <div class=" row mt-5 justify-content-md-center">
+        <div class=" col-lg col-md-auto ">
+          <div class=" card">
+            <img src="https://imgnike-a.akamaihd.net/250x250/022619ID.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Tênis Nike Pegasus Turbo Next Nature Masculino</h5>
+              <a href="#" class="btn btn-primary">go buy it now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg col-md-auto ">
+          <div class=" card">
+            <img src="https://imgnike-a.akamaihd.net/250x250/022118P1.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Tênis Nike Pegasus Turbo Next Nature Masculino</h5>
+              <a href="#" class="btn btn-primary">go buy it now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-md-auto ">
+          <div class=" card">
+            <img src="https://imgnike-a.akamaihd.net/250x250/022810IM.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Tênis Nike Pegasus Turbo Next Nature Masculino</h5>
+              <a href="#" class="btn btn-primary">go buy it now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-md-auto">
+          <div class=" card">
+            <img src="https://imgnike-a.akamaihd.net/250x250/02695451.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Tênis Nike Pegasus Turbo Next Nature Masculino</h5>
+              <a href="#" class="btn btn-primary">go buy it now</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <hr class="mt-4">
+
+  <section class="mt-4 mb-5 bg-dark">
+    <div class="container">
+   <h5 class="m-4 p-4" style="color: white;">Entre em contato</h5>
+   <p class="ms-4 ps-4" style="color: white;">Entraremos em contato em breve...</p>
+      <form class="m-4 p-4">
+        <label for="nome" class="form-label" style="color: white;">Nome:</label>
+        <input type="text" class="form-control" id="nome" placeholder="Seu nome...">
+  
+  
+        <label for="email" class="form-label" style="color: white;" >E-mail:</label>
+        <input type="text" class="form-control" id="email" placeholder="Seu email...">
+  
+  
+  
+        <label for="tel" class="form-label" style="color: white;">telefone:</label>
+        <input type='tel' class="form-control" id="tel" placeholder="Seu numero...">
+  
+  
+        <button class="btn btn-primary mt-3">Enviar</button>
+      </form>
+   
+    </div>
+  </section>
+  <hr class="mt-4">
+  <footer class="bg-dark mt-5 ">
+<div class="container p-4">
+ <p class="text-center"  style="color: white;"> &copy2023</p>
+</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
